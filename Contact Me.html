@@ -4,25 +4,100 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Me</title>
+
+    <style>
+        body {
+           background-color: rgb(235, 222, 85); 
+           
+        }
+        
+        hr {
+            border-style:none;
+            border-top-style: dotted;
+            border-color: peru;
+            border-width: 15px;
+            /* height: 0px; */
+            width: 40%;
+        }
+
+        img {
+            height: 180px;
+            width: 180px;
+        }
+    </style>
+    
 </head>
 
 <body>
-    <h3>My Contact Details : </h3>
-    <h3>=============== </h3>
+    <table align="center">
+        <tr>
+            <td>
+                <h4><a href="index.html">HOME</a></h4>
+            </td>
+            <td>
+                <h2>|| My Contact Details ||</h2>
+            </td>
+            <td>
+                <h4><a href="index.html">HOME</a></h4>
+            </td>
+        </tr>
+    </table>
+
+    <table align="center">
+        <tr>
+            <td align="center">
+                <h4>Name : <em>Rakib Hassan</em></h4>
+                <h4>Cell No. : <em>+8801678712637</em></h4>
+                <h4>Email : <em>rakib1995@yahoo.com</em></h4>
+                <h4>Facebook : <a href="https://www.facebook.com/rakib.hassan.50746444">Visit</a></h4>
+                <h4>Youtube : <a href="https://www.youtube.com/channel/UCP68HCRZvYfnj-02dNOimOA">Visit</a></h4>
+            </td>
+        </tr>
+    </table>
     
-        <h4>Name.... : <em>Rakib Hassan</em></h4>
-        <h4>Cell No. : <em>+8801678712637</em></h4>
-        <h4>Email... : <em>rakib1995@yahoo.com</em></h4>
     <hr>
-    
-    <form action="mailto:info@yahoo.com" method="POST" enctype="text/plain">
-        <label>Your Name :</label> 
-        <input type="text" name="Name" id=""> <br>
-        <label>Your Email : </label>
-        <input type="email" name="Mail" id=""> <br>
-        <label>Your Message :</label> <br>
-        <textarea name="Message" id="" cols="30" rows="10"></textarea> <br>
-        <input type="submit">
+    <table border="3" align="center">
+        <tr>
+            <td>
+                <h2>FEED BACK FORM</h2>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <form action="mailto:info@yahoo.com" method="POST" enctype="text/plain"></form>
+        <table align="center">
+            <tr>
+                <td>
+                    <label>Your Name :</label> 
+                    <input type="text" name="Name" id=""> <br>
+                    <label>Your Email : </label>
+                    <input type="email" name="Mail" id=""> <br><br>
+                    <label>Agree Terms :</label>
+                    <input type="checkbox" name="" id="">
+                    <label>Send Feedback : </label>
+                    <input type="radio" name="" id=""> <br><br>
+                    <label>Your Phone :</label>
+                    <input type="number" name="" id=""> <br>
+                </td>
+
+                <td>
+                    <label>Your Message :</label> <br>
+                    <textarea name="Message" id="" cols="30" rows="7"></textarea> <br>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <table align="center">
+            <tr>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+        
+           
 
     </form>  
 
